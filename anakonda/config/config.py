@@ -12,4 +12,4 @@ class Config:
 
     JSONIFY_PRETTYPRINT_REGULAR = bool(
         int(environ.get("ANAKONDA_API_JSON_PRETTYPRINT", "0"))
-    )
+    ) 
